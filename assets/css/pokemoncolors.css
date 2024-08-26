@@ -1,0 +1,100 @@
+/* CSS para tipos de Pokémon */
+
+.pokemon {
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.pokemon.normal {
+    background-color: #8c8c8c; /* Cinza escuro */
+    border: 1px solid #666666; /* Cinza mais escuro */
+}
+
+.pokemon.fire {
+    background-color: #f57c42; /* Laranja mais escuro */
+    border: 1px solid #d7433c; /* Vermelho escuro */
+}
+
+.pokemon.water {
+    background-color: #357abd; /* Azul mais escuro */
+    border: 1px solid #0056a0; /* Azul ainda mais escuro */
+}
+
+.pokemon.grass {
+    background-color: #6aab4f; /* Verde mais escuro */
+    border: 1px solid #4a8a32; /* Verde ainda mais escuro */
+}
+
+.pokemon.electric {
+    background-color: #f1d233; /* Amarelo mais escuro */
+    border: 1px solid #bfa820; /* Amarelo ainda mais escuro */
+}
+
+.pokemon.ice {
+    background-color: #8ed6d1; /* Verde água mais escuro */
+    border: 1px solid #5a9e9f; /* Verde água ainda mais escuro */
+}
+
+.pokemon.fighting {
+    background-color: #d35438; /* Vermelho queimado mais escuro */
+    border: 1px solid #a0412d; /* Vermelho ainda mais escuro */
+}
+
+.pokemon.poison {
+    background-color: #9b5bce; /* Roxo mais escuro */
+    border: 1px solid #6e3b8d; /* Roxo ainda mais escuro */
+}
+
+.pokemon.ground {
+    background-color: #d4a16c; /* Marrom mais escuro */
+    border: 1px solid #a87f50; /* Marrom ainda mais escuro */
+}
+
+.pokemon.flying {
+    background-color: #8a9eff; /* Azul mais escuro */
+    border: 1px solid #4a5b9b; /* Azul ainda mais escuro */
+}
+
+.pokemon.psychic {
+    background-color: #e093a2; /* Rosa mais escuro */
+    border: 1px solid #d07685; /* Rosa ainda mais escuro */
+}
+
+.pokemon.bug {
+    background-color: #8cbf37; /* Verde limão mais escuro */
+    border: 1px solid #5a8d24; /* Verde ainda mais escuro */
+}
+
+.pokemon.rock {
+    background-color: #6e6b4f; /* Cinza pedra mais escuro */
+    border: 1px solid #4a4a3a; /* Cinza ainda mais escuro */
+}
+
+.pokemon.ghost {
+    background-color: #8d6e98; /* Roxo acinzentado mais escuro */
+    border: 1px solid #5b3e6e; /* Roxo ainda mais escuro */
+}
+
+.pokemon.dragon {
+    background-color: #5b72d6; /* Azul dragão mais escuro */
+    border: 1px solid #3c4d9b; /* Azul ainda mais escuro */
+}
+
+.pokemon.dark {
+    background-color: #3d3d3d; /* Cinza escuro mais escuro */
+    border: 1px solid #1e1e1e; /* Cinza ainda mais escuro */
+}
+
+.pokemon.steel {
+    background-color: #9a9a9a; /* Prata mais escuro */
+    border: 1px solid #6b6b6b; /* Prata ainda mais escuro */
+}
+
+.pokemon.fairy {
+    background-color: #a89a9d; /* Rosa claro mais escuro */
+    border: 1px solid #c77a7e; /* Rosa ainda mais escuro */
+}

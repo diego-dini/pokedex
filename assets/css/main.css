@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Roboto";
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 600px;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#screen-overlay {
+  visibility: collapse;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#screen-overlay > div {
+  padding: 10px;
+  width: 95%;
+  max-width: 570px;
+  min-height: 90%;
+  background-color: rgb(190, 252, 233);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: top;
+}
+
+#screen-overlay > div > h2 {
+  height: min-content;
+  text-transform: capitalize;
+}
+
+#screen-overlay > div > div {
+  width: 95%;
+  max-width: 570px;
+  height: min-content;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+#screen-overlay > div > div > img {
+  width: 100%;
+  height: auto;
+}
+
+#screen-overlay > div > p {
+  height: min-content;
+  margin: 0 20px;
+  border-radius: 5%;
+  width: 100%;
+  height: 40%;
+  font-size: large;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#pokemon-container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#pokemon-container > div {
+  flex: 1 1 calc(50% - 10px); /* Ajuste a largura com base no contêiner */
+  max-width: 160px;
+  min-width: 160px;
+  margin: 5px; /* Espaçamento entre os itens */
+  border-radius: 10%;
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+#pokemon-container > div > h3 {
+  flex: 1 1 calc(20% - 10px);
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+#pokemon-container > div > div {
+  flex: 1 1 calc(30% - 10px);
+  min-height: calc(30% - 10px);
+  padding: 10px;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+#pokemon-container > div > div > img {
+  height: auto;
+  max-width: 100%;
+  padding: 2px;
+  text-transform: capitalize;
+}
+
+#pokemon-container > div > img {
+  flex: 1 1 calc(60% - 10px);
+  max-width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
+}
